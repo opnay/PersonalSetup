@@ -46,6 +46,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 - [Official](https://developer.android.com/studio)
 - [Snap](https://snapcraft.io/android-studio)
 - [Flatpak](https://flathub.org/apps/details/com.google.AndroidStudio)
+#### Add desktop icon
+- [Copy `android-studio.desktop` file!](https://github.com/opnay/PersonalSetup/tree/master/Application/.desktop)
 #### Setup ADB
 1. Install Android Studio
 2. Install SDK in Android Studio
