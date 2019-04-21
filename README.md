@@ -46,6 +46,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 - [Official](https://developer.android.com/studio)
 - [Snap](https://snapcraft.io/android-studio)
 - [Flatpak](https://flathub.org/apps/details/com.google.AndroidStudio)
+#### Setup ADB
+1. Install Android Studio
+2. Install SDK in Android Studio
+    - You must know SDK Path (MY PATH: `/Workspace/Library/AndroidSDK`)
+3. Add your `.bashrc` or `.zshrc`
+``` Shell
+export PATH=$PATH:/Workspace/Library/AndroidSDK/platform-tools
+```
 ### Vala
 - [Elementary Development](https://elementary.io/ko/docs/code/getting-started#developer-sdk)
 - [Practice Repository](https://github.com/opnay/ValaPractice)
