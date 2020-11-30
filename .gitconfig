@@ -1,0 +1,6 @@
+[alias]
+	c = commit
+	cp = cherry-pick
+	ca = commit --amend
+	one = log --pretty=format:'%h -%C(yellow)%d%C(reset) %s%C(reset)' --graph --all
+	f = fetch
